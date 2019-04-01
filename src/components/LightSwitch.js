@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
 export default class LightSwitch extends Component {
-  state = { active: true }
+  state = {active: true}
 
   toggle = () => {
       this.setState({

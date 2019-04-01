@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import logo from './logo.svg'
+import './App.css'
 import Title from './components/Title'
+import LightSwitch from './components/LightSwitch';
+import User from './components/User';
 
 class App extends Component {
   render() {
@@ -23,10 +25,12 @@ class App extends Component {
         </header>
         <main>
           <Title content="Some Simple Title"/>
+          <LightSwitch/>
+          <User name="Alice"/>
         </main>
       </div>
     );
   }
 }
 
-export default App;
+export default App

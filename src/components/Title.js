@@ -4,3 +4,4 @@ export default class Title extends Component {
         return <h1>{this.props.content}</h1>
     }
 }
+
